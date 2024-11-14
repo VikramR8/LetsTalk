@@ -1,7 +1,8 @@
+import { HOST } from "@/utils/constants"
 import axios from "axios"
 
 const apiClient = axios.create({
-    baseURL: "http://localhost:1508",
+    baseURL: HOST,
 })
 
 export default apiClient
